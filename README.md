@@ -4,6 +4,8 @@ Telegram for SPECS 2026 is a very early experimental Telegram client for Snap Sp
 
 It brings a simple spatial messenger interface to AR glasses. The current prototype supports Telegram login, chat lists, message history, text messages, media previews, audio playback, typing updates, chat information, settings, and movable panels.
 
+Hackathon workflow: [CLAD prompt log](CLAD_PROMPT_LOG.md).
+
 ## How it works
 
 The Lens does not connect to Telegram directly:
