@@ -1,0 +1,59 @@
+# Shipped by Lens Studio
+
+# The lines below are automatically generated and updated by Lens Studio.
+# Please do not modify them manually, as changes will be overwritten each time!
+# If you want to make changes to this file, please put them either above or below this section.
+
+Cache/**
+PluginsUserPreferences/**
+Support/**
+BackUp/**
+Workspaces/**
+.vscode/**
+/jsconfig.json
+/tsconfig.json
+.DS_Store
+/spk_debug_key.pem
+*.lock
+
+# Shipped by Lens Studio
+# BEGIN Lens Studio managed Agents-Docs block
+.mcp.json
+.cursor/mcp.json
+.vscode/mcp.json
+.codex/config.toml
+.claude/settings.local.json
+# END Lens Studio managed Agents-Docs block
+.runtime/
+
+# Private Telegram credentials and sessions
+Assets/Backend/.env
+Assets/Backend/.env.meta
+Assets/Backend/data/
+
+# Backend dependencies and logs
+Assets/Backend/node_modules/
+node_modules/
+*.log
+npm-debug.log*
+
+# Lens Studio generated/local files
+Cache/
+Support/
+Workspaces/
+PluginsUserPreferences/
+.virtual-scene.json
+*.esproj.*.lock
+
+# Local editor and agent configuration
+.codex/
+.claude/
+.cursor/
+.vscode/
+AGENTS.md
+CLAUDE.md
+.icon_tmp/
+
+# macOS
+.DS_Store
+**/.DS_Store

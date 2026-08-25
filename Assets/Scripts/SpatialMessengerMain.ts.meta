@@ -1,0 +1,74 @@
+- !<AssetImportMetadata/7f6a9564-c682-48d5-9da0-8ee3f9bb6299>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 7385c920-e91b-41f3-82aa-e26374725bf6
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 7385c920-e91b-41f3-82aa-e26374725bf6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 820967d7-1e0a-4ecd-964a-e642befe1f3f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/820967d7-1e0a-4ecd-964a-e642befe1f3f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: e795fa54-b05e-4632-a6be-46ee91218342
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    authUI: false
+    backendBaseUrl: false
+    bridgeToken: false
+    demoAutoFill: false
+    previewOpenFirstChat: false
+    previewStartInChats: false
+    shellUI: false
+    useRemoteBackend: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - authUI: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      shellUI: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      demoAutoFill: true
+      previewStartInChats: true
+      previewOpenFirstChat: true
+      useRemoteBackend: false
+      backendBaseUrl: "http://127.0.0.1:8787"
+      bridgeToken: ""
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Spatial Messenger – App Controller</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input AssignableType_1 authUI {"hint":"Spatial Messenger auth UI component"}'
+    - '// @input AssignableType_2 shellUI {"hint":"Compact chats and messages UI component"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input bool demoAutoFill = true {"hint":"Use safe demo values when Preview cannot inject the Specs keyboard"}'
+    - '// @input bool previewStartInChats = true {"hint":"Mock Preview only: open chats immediately. Real backend always shows login"}'
+    - '// @input bool previewOpenFirstChat {"hint":"Preview visual check only: automatically open the first mock chat"}'
+    - '// @input bool useRemoteBackend {"hint":"Use Assets/Backend instead of deterministic Preview data"}'
+    - '// @input string backendBaseUrl = "http://127.0.0.1:8787" {"hint":"Mac Preview: http://127.0.0.1:8787. Device: public HTTPS URL"}'
+    - '// @input string bridgeToken {"hint":"Optional temporary bridge token. Never put Telegram API_HASH here"}'
+    - '// @ui {"widget":"group_end"}'

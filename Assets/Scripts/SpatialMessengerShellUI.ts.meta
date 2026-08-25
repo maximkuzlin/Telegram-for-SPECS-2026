@@ -1,0 +1,74 @@
+- !<AssetImportMetadata/fd0e34a5-704a-49b0-96cd-04a8ec12a19b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 491e1c98-8429-4f46-ab8e-f446c66080ae
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 491e1c98-8429-4f46-ab8e-f446c66080ae
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a22f4d90-e616-4c6b-aa4c-05dfcbc7ba8a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a22f4d90-e616-4c6b-aa4c-05dfcbc7ba8a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 9bc297e4-4f83-4dcb-baf8-585799e0e42a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    incomingBorderColor: false
+    incomingBubbleColor: false
+    maxVoiceSeconds: false
+    outgoingBorderColor: false
+    outgoingBubbleColor: false
+    panelHeight: false
+    panelWidth: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panelWidth: !<float> 38.000000
+      panelHeight: !<float> 34.000000
+      incomingBubbleColor: !<Vec4> {x: 1.000000, y: 0.820000, z: 0.120000, w: 0.220000}
+      incomingBorderColor: !<Vec4> {x: 1.000000, y: 0.880000, z: 0.250000, w: 0.900000}
+      outgoingBubbleColor: !<Vec4> {x: 0.180000, y: 0.550000, z: 0.950000, w: 0.300000}
+      outgoingBorderColor: !<Vec4> {x: 0.350000, y: 0.720000, z: 1.000000, w: 0.950000}
+      maxVoiceSeconds: !<float> 30.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Spatial Messenger – Chats</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Layout"}'
+    - '// @input float panelWidth = 38 {"hint":"Panel width in centimeters", "widget":"slider", "min":32, "max":44, "step":1}'
+    - '// @input float panelHeight = 34 {"hint":"Panel height in centimeters", "widget":"slider", "min":28, "max":38, "step":1}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Message colors"}'
+    - '// @input vec4 incomingBubbleColor = {1,0.82,0.12,0.22} {"hint":"Incoming bubble: Snapchat yellow", "widget":"color"}'
+    - '// @input vec4 incomingBorderColor = {1,0.88,0.25,0.9} {"hint":"Incoming bubble border", "widget":"color"}'
+    - '// @input vec4 outgoingBubbleColor = {0.18,0.55,0.95,0.3} {"hint":"Outgoing bubble: Telegram blue", "widget":"color"}'
+    - '// @input vec4 outgoingBorderColor = {0.35,0.72,1,0.95} {"hint":"Outgoing bubble border", "widget":"color"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Voice"}'
+    - '// @input float maxVoiceSeconds = 30 {"hint":"Maximum voice note length", "widget":"slider", "min":10, "max":60, "step":5}'
+    - '// @ui {"widget":"group_end"}'
